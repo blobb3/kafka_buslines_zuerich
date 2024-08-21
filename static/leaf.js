@@ -19,7 +19,7 @@ var myIcon = L.divIcon({
       iconSize: [15, 15]
     });
 
-var source = new EventSource('/topic/busdata_001'); //ENTER YOUR TOPICNAME HERE
+var source = new EventSource('/topic/busdata001');
 source.addEventListener('message', function(e){
 
   console.log('Message');
