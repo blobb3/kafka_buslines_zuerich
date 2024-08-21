@@ -1,0 +1,27 @@
+{
+  "name": "Kafka Development Environment",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "kafka",
+  "workspaceFolder": "/workspace",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "customizations": {    
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker",
+        "ms-python.python",
+		"ms-toolsai.jupyter",
+		"analytic-signal.preview-pdf",
+		"ms-python.pylint",
+        "ms-python.autopep8"
+      ]
+    }
+  },
+    "forwardPorts": [
+    9092,
+    2181
+  ]
+  "postCreateCommand": "docker-compose up -d",
+  "remoteUser": "root"
+}
