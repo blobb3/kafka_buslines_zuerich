@@ -1,6 +1,5 @@
 {
   "name": "Kafka Buslines Event Streaming",
-  "dockerComposeFile": "../docker-compose.yml",
   "customizations": {    
     "vscode": {
       "extensions": [
