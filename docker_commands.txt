@@ -1,0 +1,5 @@
+# Lists available topics
+docker exec -it <kafka-container-name> /opt/bitnami/kafka/bin/kafka-topics.sh --list --bootstrap-server 0.0.0.0:9092
+
+# Creates new topic 'busdata_001'
+docker exec -it <kafka-container-name> /opt/bitnami/kafka/bin/kafka-topics.sh --create --topic busdata_001 --bootstrap-server kafka:9092 --partitions 1 --replication-factor 1

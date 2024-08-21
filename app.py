@@ -2,7 +2,7 @@ from flask import Flask, render_template, Response
 from pykafka import KafkaClient
 
 def get_kafka_client():
-    return KafkaClient(hosts='127.0.0.1:9092')
+    return KafkaClient(hosts='0.0.0.0:9092')
 
 app = Flask(__name__)
 

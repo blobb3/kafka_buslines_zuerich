@@ -14,8 +14,8 @@ def generate_uuid():
     return uuid.uuid4()
 
 #KAFKA PRODUCER
-client = KafkaClient(hosts="127.0.0.1:9092")
-topic = client.topics['busdata_001']
+client = KafkaClient(hosts="0.0.0.0:9092")
+topic = client.topics['busdata001']
 producer = topic.get_sync_producer()
 
 #CONSTRUCT MESSAGE AND SEND IT TO KAFKA
