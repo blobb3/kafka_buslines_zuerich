@@ -1,5 +1,5 @@
 {
-  "name": "Kafka Development Environment",
+  "name": "Kafka Buslines Event Streaming",
   "dockerComposeFile": "../docker-compose.yml",
   "service": "kafka",
   "workspaceFolder": "/workspace",
