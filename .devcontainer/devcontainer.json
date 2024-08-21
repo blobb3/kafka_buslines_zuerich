@@ -22,6 +22,6 @@
     9092,
     2181
   ],
-  "postCreateCommand": "docker-compose up -d",
+  "postCreateCommand": "pip install -r requirements.txt",
   "remoteUser": "root"
 }
