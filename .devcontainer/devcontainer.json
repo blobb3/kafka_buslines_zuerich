@@ -19,6 +19,6 @@
     9092,
     2181
   ],
-  "postCreateCommand": "docker-compose up -d",
+  "postCreateCommand": "sudo service docker start && docker-compose up -d",
   "remoteUser": "root"
 }
