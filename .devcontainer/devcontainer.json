@@ -1,6 +1,7 @@
 {
   "name": "Kafka Buslines Event Streaming",
   "dockerComposeFile": "../docker-compose.yml",
+  "workspaceFolder": "/workspace",
   "service": "kafka",
   "customizations": {    
     "vscode": {
