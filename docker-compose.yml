@@ -33,4 +33,3 @@ services:
       - myNetwork
     depends_on:
       - zookeeper
-    command: /bin/bash -c "mkdir -p /workspace && /opt/bitnami/scripts/kafka/run.sh"
